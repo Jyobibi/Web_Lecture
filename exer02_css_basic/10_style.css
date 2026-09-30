@@ -1,0 +1,120 @@
+#main {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#profile {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#header {
+    color: white;
+    background-color:  darkblue;
+    border: 1px solid black;
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#body {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    border: 2px solid white;
+}
+
+#name {
+    background-color: skyblue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    border: 1px solid #d2d2d2;
+}
+
+#skill {
+    background-color: #efefef;
+    padding: 20px;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #d2d2d2;
+}
+
+#skill > h3 {
+    color: darkblue;
+    margin: 5px;
+}
+
+#skill > hr {
+    border: 0.5px solid darkblue;
+}
+
+#tags {
+    margin-top:20px;
+}
+
+#tags span {
+    padding:5px 10px;
+    border-radius:50px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#tags > span:nth-child(1) {
+    background-color: lightgreen;
+}
+
+#tags > span:nth-child(2) {
+    background-color: lightpink;
+}
+
+#tags > span:nth-child(3) {
+    background-color: lightgray;
+}
+
+#tags > span:nth-child(4) {
+    background-color: lightpink;
+}
+
+#skill p {
+    color: #595959;
+    font-size: 14px;
+}
+
+#skill label {
+    display: inline-block;
+    width: 50px;
+    font-weight: bold;
+    margin: 5px 0px 10px 0px;
+}
+
+input[type="text"] {
+    background-color: lightyellow;
+}
+
+input[type="email"] {
+    background-color: lightblue;
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
