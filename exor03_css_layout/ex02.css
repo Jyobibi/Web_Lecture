@@ -1,0 +1,65 @@
+
+.head {
+    background: #21239e;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+
+}
+
+.menu {
+    overflow:hidden;
+}
+
+.menuitem {
+    float: left;
+    background: #4a6793;
+    color: white;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.main {
+    float: left;
+    width: 70%;
+}
+
+.main h2 {
+    color: #21239e;
+}
+
+.sidebar {
+    float: right;
+    background: #e9eff6;
+    width: 25%;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.sidebar h2 {
+    color: #21239e;
+}
+
+.sidemenu {
+    background: white;
+    border: 1px solid lightblue;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+.fotter {
+    background: rgb(62, 61, 61);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
