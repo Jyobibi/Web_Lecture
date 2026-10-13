@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background: #b31b3e;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+.menuitem {
+    float: left;
+    background: #cf3743;
+    color: white;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid white;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.profile {
+    float: left;
+    width: 20%;
+    min-height: 485px;
+    background: #ffe2e6;
+    padding: 20px;
+}
+
+.profile h3 {
+    color: #a51d27;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    min-height: 485px;
+    padding: 5px 20px;
+    background: #fffafa;
+}
+
+.main h2 {
+    color: #a51d27;
+}
+
+.project {
+    background: #fff0f0;
+    border: 1px solid #ff9999;
+    padding-left: 10px;
+    margin-bottom: 35px;
+}
+
+.skills {
+    float: left;
+    width: 20%;
+    min-height: 485px;
+    background: #ffe2e6;
+    padding: 20px;
+}
+
+.skills h3 {
+    color: #a51d27;
+}
+
+.footer {
+    background: rgb(112, 21, 21);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
